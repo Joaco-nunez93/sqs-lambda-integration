@@ -1,0 +1,34 @@
+{
+  "version": "48.0.0",
+  "files": {
+    "f354e277e0aef36cbdc98d96be7673a52656d33368e6327401fa060ff965c006": {
+      "displayName": "SQSLambda/Code",
+      "source": {
+        "path": "asset.f354e277e0aef36cbdc98d96be7673a52656d33368e6327401fa060ff965c006",
+        "packaging": "zip"
+      },
+      "destinations": {
+        "current_account-current_region-f2d4a70c": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "f354e277e0aef36cbdc98d96be7673a52656d33368e6327401fa060ff965c006.zip",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    },
+    "0868d39e2aa3d463ab1163aa92b758697da1929d5f33004b6a83dac91331033a": {
+      "displayName": "SqsIntegrationStack Template",
+      "source": {
+        "path": "SqsIntegrationStack.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region-3f16c42b": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "0868d39e2aa3d463ab1163aa92b758697da1929d5f33004b6a83dac91331033a.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
