@@ -540,5 +540,3 @@ Este es un proyecto educativo. Si encuentras mejoras o tienes sugerencias:
 Este proyecto es de código abierto y está disponible para fines educativos.
 
 ---
-
-**⭐ Si este proyecto te resultó útil, considera darle una estrella en GitHub!**
