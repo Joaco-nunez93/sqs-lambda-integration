@@ -4,7 +4,7 @@ Proyecto serverless construido con **AWS CDK (Cloud Development Kit)** que demue
 
 ## 📋 Overview
 
-Este repositorio contiene un proyecto educativo que muestra cómo construir un sistema de procesamiento asíncrono de mensajes en AWS utilizando Infrastructure as Code (IaC) con CDK. El proyecto implementa el patrón arquitectónico **productor-consumidor** donde:
+Este repositorio contiene un proyecto el en cual se construye un sistema de procesamiento asíncrono de mensajes en AWS utilizando Infrastructure as Code (IaC) con CDK. El proyecto implementa el patrón arquitectónico **productor-consumidor** donde:
 
 - **Amazon SQS**: Actúa como cola de mensajes durable y escalable
 - **AWS Lambda**: Procesa los mensajes de forma asíncrona y automática
